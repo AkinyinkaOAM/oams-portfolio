@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.parent{
+    border: thick solid black;
+    width: 80%;
+    margin: 100px auto;
+    height: 900px;
+    position: relative;
+}
+.children{
+    border: 2px solid orangered;
+    border-radius: 50px;
+    width: 800px;
+    height: 800px;
+}
+.child7{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 150px;
+    left: 250px ;
+    border-radius: 2500px;
+    background-color: royalblue;
+    
+}
+.child1{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 200px;
+    left: 300px ;
+    border-radius: 2500px;
+    background-color: purple;
+    z-index: 2;
+}
+.child2{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    left: 350px ;
+    border-radius: 2500px;
+    background-color: gold;
+    z-index: 2;
+}
+.child3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    left: 400px ;
+    border-radius: 2500px;
+    background-color: green;
+    z-index: 2;
+}
+.child4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 450px ;
+    border-radius: 2500px;
+    background-color: blue;
+    z-index: 2;
+}
+.child5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 500px ;
+    border-radius: 2500px;
+    background-color: pink;
+    z-index: 2;
+}
+.child6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+    left: 550px ;
+    border-radius: 2500px;
+    background-color: red;
+    z-index: 2;
+}

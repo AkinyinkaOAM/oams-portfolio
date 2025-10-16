@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #F2F7F8;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    color: #3D5061;
+}
+.menu-list a{
+    color: #3F5162;
+}
+
+.left-button {
+    padding: 18px 23px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid;
+
+}
+
+.right-button {
+    padding: 18px 25px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid;
+}
+.hero-section {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-hero-section-btn  {
+    display: flex;
+    border-radius: 20px;
+    padding: 2px 10px;
+    background-color: #0189FF;
+}
+.top-hero-section-btn a {
+    color: white;
+}
+.top-hero-section-btn a :hover{
+    color: #00D9EC;
+    
+}
+.hsb{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.hsb-img{
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+
+    }
+}
+.left-items{
+    border: 2px thin solid black ;
+    display: block;
+    margin-left: 2px;
+    padding-left: 2px;
+    
+}
+.span1{
+    display: flex;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Jakarta sans-serif;
+    margin-left: 5px;
+}
+.span2{
+display: flex;
+font-size: 22px;
+font-family: Times;
+margin-left: 10px;
+}
+
+.apple-btn {
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.apple-btn a{
+    color: white;
+}
+
+.google-btn {
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.google-btn a{
+    color: white;
+}
+.abtn{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.gbtn{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.section2{
+    display: flex;
+    gap: 2em;
+    width: 85%;
+    margin: auto;
+    
+}
+.secure{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.section3 {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border: none;
+}
+.stn3{
+    text-align: center;
+}
+.stn31{
+    font-size: 48px;
+    font-weight: 800;
+}
+.stn32{
+    font-size: 32;
+}
+.section4{
+    display: flex;
+    width: 85%;
+    padding: 20px 50px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.auto-sav{
+    border: 5em 3em;
+    text-align: center;
+    padding: 1em 2em;
+}
+.fixed-sav{
+    border: 15000px 8000px;
+}

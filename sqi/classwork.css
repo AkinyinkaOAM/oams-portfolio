@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    border: thin solid black;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    border: none;
+    
+    
+}
+.sect1{
+    margin: auto;
+    text-align: center;
+}
+.menu-list{
+    display: flex;
+    gap: 2em;
+    border: thin solid black;
+    border: none;
+    color: #000059;
+
+}
+.heading{
+    margin: auto;
+    padding: 20px;
+    color: #666666;
+}
+.head2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 2em;
+}
+.com-sci, .acct, .bus-ad{
+    border: thin solid black;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.parent{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    border: none;
+}
+.childeren{
+    width: 370px;
+    height: 515px;
+    border: thin solid black;
+    /* box-shadow: 0px 0px 4px 4px; */
+    border-radius: 25px;
+}
+.child1, .child2, .child3{
+    text-align: center;
+}
+.com-img, .acc-img, .bus-img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 24.4px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background-color: #000059;
+}
+.left-side{
+    border: thin solid transparent;
+    background-color: #E09901;
+    color: white;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    margin: auto;
+}
+.right-side{
+    color: white;
+    border: thin solid black;
+    margin-top: 10px;
+    border: none;
+}
+.trial2{
+    background-color: #000059;
+}
+.top-left{
+    border: thin solid black;
+    padding: 10px 10px;
+    text-align: justify;
+    border: none;
+    font-size: 42px;
+}
+.fet{
+    padding-left: 15px;
+    text-align: justify;
+    color: #666666;
+}
+.fataa{
+    padding-left: 15px;
+    text-align: justify;
+    color: #666666;
+}
+.fate{
+    padding-left: 15px;
+    text-align: justify;
+    color: #666666;
+    
+}
+.hbs1, .hbs2, .hbs3{
+    padding-left: 5%;
+    text-align: justify;
+    font-size: 22px;
+    color: #000059;
+}
+.general{
+    padding: auto;
+}
+.sub1, .sub2{
+border: thin solid black;
+padding: 10px 10px;
+text-align: justify;
+border: none;
+font-size: 16px;
+}
+.wic{
+    color: #FF9900;
+}
