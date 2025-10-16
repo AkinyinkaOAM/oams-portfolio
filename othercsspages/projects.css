@@ -19,7 +19,7 @@ nav{
 .fa-bars{
     display: none;
 }
-.logo{
+.logo a{
     font-size: 24px;
     color: #193930;
 }
@@ -50,6 +50,9 @@ nav{
     gap: 6em;
     flex-wrap: wrap;
     border: none;
+}
+h2{
+    color: #193930;
 }
 .hero{
     border: thin solid black;
